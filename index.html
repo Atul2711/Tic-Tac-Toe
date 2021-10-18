@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>TicTacToe</li>
+        </ul>
+    </nav>
+
+    <div class="gamecontainer">
+        <div class="leftpart">
+            <div class="line"></div>
+            <div class="box br bb bt bl"><span class="move"></span></div>
+            <div class="box br bb bt"><span class="move"></span></div>
+            <div class="box bb bt br"><span class="move"></span></div>
+            <div class="box br bb bl"><span class="move"></span></div>
+            <div class="box br bb"><span class="move"></span></div>
+            <div class="box bb br"><span class="move"></span></div>
+            <div class="box br bb bl"><span class="move"></span></div>
+            <div class="box br bb"><span class="move"></span></div>
+            <div class="box bb br"><span class="move"></span></div>
+        </div>
+        <div class="rightpart">
+            <h2>Lets Play!</h2>
+            <div class="rp2">
+                <span class="info">Turn for X</span>
+                <!-- <p>Turn for X</p> -->
+                <button id="reset">Restart</button>
+            </div>
+           
+
+        </div>
+    </div>
+    <script src="brain.js"></script>
+</body>
+</html>
